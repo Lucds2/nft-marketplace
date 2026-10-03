@@ -16,10 +16,11 @@ const queryClient = new QueryClient({
 
 // 2. Função para inicializar o MSW no ambiente de desenvolvimento
 async function enableMocking() {
-  if (import.meta.env.DEV) {
-    const { worker } = await import('./mocks/browser');
-    return worker.start();
+  if (!import.meta.env.DEV) {
+    return;
   }
+  const { worker } = await import('./mocks/browser');
+  return worker.start();
 }
 
 // 3. Inicializa o MSW e renderiza a aplicação
