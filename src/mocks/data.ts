@@ -14,6 +14,7 @@ export const mockUser: User = {
   avatar: img042,
   mainWallet: '0x71C...39A2',
   secondaryWallet: '0x18F...90B1',
+  password: '123456',
 };
 
 export const mockNFTs: NFT[] = [
