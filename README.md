@@ -60,13 +60,11 @@ Modo UI interativo do Playwright:
 Bash
 npm run test:e2e:ui
 🔑 Credenciais Fictícias para Testes
-Para testar os fluxos protegidos (como perfil, carteiras, favoritos e checkout), podes utilizar a conta pré-configurada nos mocks:
+Para testar os fluxos protegidos (como perfil, carteiras, favoritos e checkout):
 
-E-mail: luciano@exemplo.com
+**Acesse o link: https://nft-marketplace-lucds.vercel.app/**
 
-Senha: 123456
-
-(Também é possível criar uma nova conta diretamente através do modal de cadastro).
+Criar uma nova conta diretamente através do modal de cadastro.
 
 📋 **Configuração e Simulação de Cenários (MSW)**
 
