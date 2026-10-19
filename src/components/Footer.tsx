@@ -226,7 +226,7 @@ export function Footer() {
 
       {/* COPYRIGHT EXTERNO */}
       <div className="pt-6 text-center text-xs text-[#CFB28C]">
-        © 2026 Kurio. Propriedade digital para todos.
+        © 2026 LsDev. All rights reserved.
       </div>
     </footer>
   );
